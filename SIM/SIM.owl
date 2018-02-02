@@ -1,0 +1,3387 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/johngt/ontologies/2017/11/SIM#"
+     xml:base="http://www.semanticweb.org/johngt/ontologies/2017/11/SIM"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:CNITontology="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Intel="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/11/SIM"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#CreationDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#CreationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Date"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Designer -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Designer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ModificationDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ModificationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Date"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Version -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Version"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#category -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#id"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#name -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#version -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasAction">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isActionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasCreationDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasCreationDate">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isCreationDateOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDefaultAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDefaultAction">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDefaultActionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDeployment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDeployment">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDeploymentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDescriptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDescriptor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDescriptorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDesignTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDesignTool">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignToolOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDesigner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDesigner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraph -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraph">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraphEditor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraphEditor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphEditorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraphElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraphElement">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphElementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasID -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasID">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isIDOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasInformation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isInformationOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasModificationDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasModificationDate">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isModificationDateOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasName">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isNameOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasOwner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasOwner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isOwnerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectDescriptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectDescriptor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectOwner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectOwner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectOwnerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectType">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectTypeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasRDL -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasRDL">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isRDLOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasResource">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasResourceDescriptionLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasResourceDescriptionLanguage">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceDescriptionLanguageOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasRootDescriptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasRootDescriptor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isRootDescriptorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasStatus">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isStatusOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasType">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isTypeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasVersion">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isVersionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isActionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isActionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isCreationDateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isCreationDateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDefaultActionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDefaultActionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDeploymentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDeploymentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDescriptorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDescriptorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignToolOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignToolOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphEditorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphEditorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphElementOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isIDOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isIDOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isInformationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isInformationOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isModificationDateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isModificationDateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isNameOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isNameOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isOwnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isOwnerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectDescriptorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectDescriptorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectOwnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectOwnerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectTypeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isRDLOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isRDLOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceDescriptionLanguageOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceDescriptionLanguageOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isRootDescriptorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isRootDescriptorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isStatusOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isStatusOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isTypeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isVersionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAggregator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAggregator">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAggregatorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAttribute">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAttributeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasCollector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasCollector">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isCollectorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasComputeResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasComputeResource">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isComputeResourceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraph -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraph">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphGenerator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphGenerator">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphGeneratorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphNodeEdge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphNodeEdge">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphElement"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphNodeEdgeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphNodeElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphNodeElement">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphElement"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphNodeElementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphView -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphView">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphViewOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isLayerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasMember">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isMemberOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkResource">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkResourceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkTopology -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkTopology">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkTopologyOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasPhyHostListener -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasPhyHostListener">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isPhyHostListenerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasPhyNWListener -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasPhyNWListener">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isPhyNWListenerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasRepresentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasRepresentation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isRepresentationOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStateOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorage">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStorageOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorageResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorageResource">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStorageResourceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasVirtualisedResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasVirtualisedResource">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isVirtualisedResourceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAggregatorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAggregatorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAttributeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAttributeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isCollectorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isCollectorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isComputeResourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isComputeResourceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphElementOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphElementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphGeneratorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphGeneratorOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphNodeEdgeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphNodeEdgeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphElementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphNodeElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphNodeElementOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphElementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphViewOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphViewOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isLayerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isLayerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isMemberOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkResourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkResourceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkTopologyOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkTopologyOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isPhyHostListenerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isPhyHostListenerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isPhyNWListenerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isPhyNWListenerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isRepresentationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isRepresentationOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStorageOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStorageOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStorageResourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStorageResourceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isVirtualisedResourceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isVirtualisedResourceOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#linksTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#linksTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#generates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#generates">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGeneratedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasComponent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isComponentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasComposition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasComposition">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isCompositionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentEnvironment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentEnvironment">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentEnvironmentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentPlan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentPlan">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentPlanOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDescription">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDescriptionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDesignTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDesignTool">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDesignToolOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasEdge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasEdge">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isEdgeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEngine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEngine">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEngineOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEnvironment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEnvironment">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEnvironmentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasGraph -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasGraph">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGraphOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasGraphElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasGraphElement">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGraphElementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasImplementation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasImplementation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isImplementationOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#microservice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasMember">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isMemberOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasPart">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRDCLDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRDCLDescription">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRDCLDescriptionOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRFB -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRFB">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRFBOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRequirement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRequirement">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRequirementOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasStorage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasStorage">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isStorageOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasVM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasVM">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isVMOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isComponentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isComponentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isCompositionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isCompositionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentEnvironmentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentEnvironmentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentPlanOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentPlanOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDescriptionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDescriptionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDesignToolOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDesignToolOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isEdgeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isEdgeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEngineOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEngineOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEnvironmentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEnvironmentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGeneratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGeneratedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGraphElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGraphElementOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGraphOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGraphOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isImplementationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isImplementationOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#microservice"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isLinkedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isLinkedTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isMemberOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isPartOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRDCLDescriptionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRDCLDescriptionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRFBOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRFBOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRequirementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRequirementOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isStorageOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isStorageOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isVMOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isVMOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#VirtualMachine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#NSDDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#NSDDescriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <CNITontology:Designer rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Designer of the Network Service Descriptor</CNITontology:Designer>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the NS Descriptor</CNITontology:Name>
+        <CNITontology:Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version of the NS Descriptor</CNITontology:Version>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#RDCL3D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#RDCL3D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#designTool"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isDesignToolOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isResourceDescriptionLanguageOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCADescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCADescriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the TOSCA descriptor</CNITontology:Name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#VNFDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#VNFDescriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the VNF descriptor</CNITontology:Name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#clickDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#clickDescriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the Click descriptor</CNITontology:Name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#designTool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#designTool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraphEditor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasGraphElement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphGenerator"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperAggregator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEdge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEdge">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#link"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphNode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphEditorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#action"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateLink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteLink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteLink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeploy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeploy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionSelectNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionSelectNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionShowGraph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionShowGraph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionShowInfo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionShowInfo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isGraphElementOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphNode">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#node"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#k8sDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#k8sDescriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the Kubernetes descriptor</CNITontology:Name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#link -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#link">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#node -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#node">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#project">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasAction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDesignTool"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#designTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectOwner"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectOwner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasStatus"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <CNITontology:CreationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project creation date</CNITontology:CreationDate>
+        <CNITontology:ModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project last modified date</CNITontology:ModificationDate>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Name</CNITontology:Name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#action"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isActionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionCreate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionCreate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionDelete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionDelete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionExport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionExport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasAction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDefaultAction"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasResourceDescriptionLanguage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectDescriptorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionClone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionClone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionDelete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionDelete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionEdit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionEdit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionHOTTemplate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionHOTTemplate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionShowGraph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionShowGraph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectOwner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectOwner">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isProjectOwnerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#isStatusOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDeployment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deployment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasProjectDescriptor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasRootDescriptor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#resourceDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#resourceDescriptor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptor"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#resourceDescriptor"/>
+        <CNITontology:Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the resource</CNITontology:Name>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ComputeAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ComputeAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#NWAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#NWAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSCinderLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSCinderLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSHEATLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSHEATLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNeutronLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNeutronLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNovaLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNovaLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhyHostLSCListener -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhyHostLSCListener">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalHostLSCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhyNWLSCListener -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhyNWLSCListener">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalNetworkLSCollector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalHostLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalHostLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperCollector"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasCollector"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalNetworkLSCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalNetworkLSCollector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperCollector"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isCollectorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#StorageAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#StorageAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#layer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#datacentre"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasMember"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkTopology"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkTopology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#cloudDescription"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#layer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Intel:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Intel:category>
+        <Intel:id rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong"></Intel:id>
+        <Intel:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Intel:name>
+        <Intel:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Intel:type>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAttribute"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ComputeAttribute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#datacentre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#datacentre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#descriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#descriptor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperAggregator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperAggregator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isAggregatorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperCollector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isGraphGeneratorOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperCollector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperCollector">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAggregator"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#landscaperAggregator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#layer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResourceDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResourceDescription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#descriptor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkTopologyDescription"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAttribute"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#NWAttribute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkTopology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkTopology">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isNetworkTopologyOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkTopologyDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkTopologyDescription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeBridge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeBridge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCache -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMachine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMachine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMemory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMemory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMotherboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMotherboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeNUMANode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeNUMANode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePCIdev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePCIdev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePackage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePackage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeProcessor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeProcessor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkNIC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkNIC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkNetwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasCollector"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalNetworkLSCollector"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkSRIOV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkSRIOV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkSwitch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkSwitch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalStorageOSdevStorage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalStorageOSdevStorage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalStorageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalStorageResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalStorageResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#serviceComputeResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#serviceComputeResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#serviceComputeStack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#serviceComputeStack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#serviceComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#machineResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasState"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computationState"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasAttribute"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#StorageAttribute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isStateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeVM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeVM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualMachine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualMachine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasComputeResource"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkResource"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorageResource"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkBridge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkBridge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkFlow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkFlow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkNetwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkNetwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkSubnet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkSubnet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkTunnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkTunnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkVNIC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkVNIC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasLayer"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageVolume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageVolume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualStorageResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#PhysicalMachine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#PhysicalMachine">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#physicalServer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hardwareResource"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasComputeResource"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasNetworkResource"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasStorageResource"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalStorageResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#VirtualMachine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCL">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#hasDesignTool"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#RDCL3D"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasComposition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLComposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLDescriptor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEngine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRDCLDescriptionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLComposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLComposition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#hasGraphElement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasGraph"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graph"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isCompositionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLDescriptor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLDescriptor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEngine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDescriptionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#generates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deploymentPlan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRequirement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#cloudDescription"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRequirement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deploymentPlan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEngineOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLDescriptor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#REE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#REE">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentEnvironment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEnvironmentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasExecutionEnvironment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#REE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasImplementation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#microservice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasStorage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#VirtualMachine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#VirtualMachine">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualServer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#cloudDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#cloudDescription">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasStorage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDescriptionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRequirementOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentEnvironmentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#microservice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isExecutionEnvironmentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#REE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#containerServer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#containerServer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deployment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deployment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentPlan"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deploymentPlan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasMember"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasRFB"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deploymentPlan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deploymentPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deploymentPlan">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasStorage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isDeploymentPlanOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#deployment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isGeneratedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isRequirementOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hardwareResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hardwareResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#microservice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#microservice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#service"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hasDeploymentEnvironment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#isImplementationOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#physicalServer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#physicalServer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hardwareResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#unikernelServer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#unikernelServer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#computeResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualServer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualServer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#virtualResource"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#CRAN_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#CRAN_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Click_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Click_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ETSI_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ETSI_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#NEMO_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#NEMO_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#OSHI_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#OSHI_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#RDCL_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#RDCL_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Superfluidity_RDL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Superfluidity_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#Superfluidity_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCANFV_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCANFV_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCA_RDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCA_RDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#ResourceDescriptionLanguage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditDescriptor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditDescriptor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionPlay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionPlay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionStop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionStop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorSavePositions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorSavePositions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorShowInfoCommands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorShowInfoCommands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectOwnerGuest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectOwnerGuest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectOwner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatusInvalid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatusInvalid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatusValid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatusValid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeCRAN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeCRAN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeClick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeClick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeETSI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeETSI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeNEMO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeNEMO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeOSHI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeOSHI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeSuperfluidity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeSuperfluidity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeTOSCA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeTOSCA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeTOSCANFV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectTypeTOSCANFV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSCinderLSCollector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSCinderLSCollector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSHEATLSCollector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSHEATLSCollector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNeutronLSCollector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNeutronLSCollector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNovaLSCollector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNovaLSCollector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttributeMemoryAllocated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttributeMemoryAllocated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttribute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttributeName -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttributeName">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttribute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttributeVCPUAllocated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttributeVCPUAllocated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttribute"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#neo4jDatabase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#neo4jDatabase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#BBU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#BBU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#BTCloud -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#BTCloud">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#BTCloudDescription -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#BTCloudDescription">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#cloudDescription"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#CRANDatabase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#CRANDatabase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#database"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#EPC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#EPC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#Fronthaul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#Fronthaul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#LTEBox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#LTEBox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#ManageIQ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#ManageIQ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#NokiaCloud -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#NokiaCloud">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#cloud"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#NokiaCloudDescription -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#NokiaCloudDescription">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#cloudDescription"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#OpenFlowSwitch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#OpenFlowSwitch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hardwareResource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLAgent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLAgent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RDCLExecutionEngine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RRH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RRH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RadioBoard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RadioBoard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#hardwareResource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#SDNController -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#SDNController">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#eNodeB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#eNodeB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#RFB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#rNodeA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#rNodeA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#physicalServer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#rNodeB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#rNodeB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/johngt/ontologies/2017/10/NOKIAFR#physicalServer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#NSDDescriptor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#TOSCADescriptor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#VNFDescriptor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#clickDescriptor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#k8sDescriptor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#resourceDescriptor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorAction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectAction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorAction"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeploy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionSelectNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeploy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionSelectNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionShowGraph"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionShowInfo"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionDeleteNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionEditNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionSelectNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateLink"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionCreateNode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#graphEditorActionSelectNode"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionCreate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionDelete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectActionExport"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionClone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionDelete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionEdit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionHOTTemplate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionShowGraph"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionClone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionDelete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionEdit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/CNITontology#projectDescriptorActionShowGraph"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ComputeAttribute"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#NWAttribute"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#StorageAttribute"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMAttribute"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSCinderLSCollector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSHEATLSCollector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNeutronLSCollector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OSNovaLSCollector"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#OpenstackLSCollector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalHostLSCollector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalNetworkLSCollector"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#PhysicalLayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#ServiceLayer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VirtualLayer"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#VMState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#attribute"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeResource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkResource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageResource"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#computeState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#networkState"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#storageState"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeBridge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCache"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMachine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMemory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMotherboard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeNUMANode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePCIdev"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePackage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeProcessor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeBridge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCache"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeCore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMemory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeMotherboard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeNUMANode"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePCIdev"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputePackage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeProcessor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalComputeResource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#serviceComputeResource"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualComputeResource"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkNIC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkNetwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkSRIOV"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#physicalNetworkSwitch"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkBridge"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkFlow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkNetwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkSubnet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkTunnel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/johngt/ontologies/2017/10/Intel#virtualNetworkVNIC"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
